@@ -4,7 +4,7 @@ Hey there! My name is Grant Gordon. I'm a software engineer with more than ten y
 
 ## What I Do
 
-DevOps means a lot of different things to a lot of different people. I like to say that I work on everything about software that isn't writing software[^¹]. Things like:
+DevOps means a lot of different things to a lot of different people. I like to say that I work on everything about software that isn't writing software[^1]. Things like:
  - [Building and Deploying Software (CI/CD)](./skills/cicd.html)
  - [Certificate Management](./skills/certificate_management.html)
  - [Performance Tuning](./skills/performance_tuning.html)
@@ -20,5 +20,5 @@ For these problems and more, I build simple, practical solutions that are well-d
 
 ---
 
-[^¹]: That's not to say that I don't write software! The software I write focuses on the infrastructure supporting the business logic, rather than business logic itself.
+[^1]: That's not to say that I don't write software! The software I write focuses on the infrastructure supporting the business logic, rather than business logic itself.
 
