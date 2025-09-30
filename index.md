@@ -1,5 +1,3 @@
-![Picture of Grant Gordon](./assets/grant_gordon_headshot.jpeg)
-
 ## About Me
 
 Hey there! My name is Grant Gordon. I'm a software engineer with more than ten years of experience helping companies solve problems. My expertise is in the wide umbrella of skills that folks call DevOps.
