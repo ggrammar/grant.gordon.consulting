@@ -18,5 +18,5 @@ For these problems and more, I build simple, practical solutions that are well-d
 
 ---
 
-[^1]: That's not to say I don't write software! I write software focused on the infrastructure _supporting_ the business logic, rather than business logic itself.
+[^1]: That's not to say that I don't write software! The software I write focuses on the infrastructure supporting the business logic, rather than business logic itself.
 
