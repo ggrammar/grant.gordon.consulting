@@ -42,7 +42,9 @@
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-	{% include footer.html %}
+	{% if page.name != "index.md" %}
+	  {% include footer.html %}
+	{% endif %}
       </footer>
     </div>
   </body>
