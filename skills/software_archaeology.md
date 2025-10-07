@@ -1,3 +1,8 @@
+---
+layout: default
+---
+
+
 ## Software Archaeology
 
 Sometimes with software - especially with software that has been running for many years - you need to figure out _how the heck this thing works_. 

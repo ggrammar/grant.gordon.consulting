@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 ## Certificates
 
 A certificate helps secure communication between two computers. For example, this communication might be:
@@ -11,7 +15,7 @@ In my experience, even people who are not very technical are aware of certificat
 
 ## Playbook
 
-If you often have outages caused by expired certificates, monitoring the expiration date of your certificates is a great way to improve reliability. It is simple to implement, even if you don't already have a purpose-built tool. If you later decide to automate certificate rotation, this monitoring can let you know if the automated process failed. 
+If you often have outages caused by expired certificates, monitoring the expiration date of your certificates is a great way to improve reliability. This monitoring is simple to implement, even if you don't already have a purpose-built tool. If you later decide to automate certificate rotation, this monitoring can let you know if the automated process failed. 
 
 The first thing you'll need is a list of all of your certificates. Let everyone involved in certificate management know that _this is the list_. You won't get everything on the first go-around, so it's important that folks know to update this list.
 
