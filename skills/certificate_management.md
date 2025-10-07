@@ -11,7 +11,11 @@ A certificate helps secure communication between two computers. For example, thi
 
 Certificates expire over time, so it's important that they're periodically rotated. Expired certificates can be a recurrent source of outages, especially if the certificates are short-lived. Certificates used to be valid for years or decades, but we are moving towards certificates that will [only be valid for a month or so](https://www.digicert.com/blog/tls-certificate-lifetimes-will-officially-reduce-to-47-days). 
 
-In my experience, even people who are not very technical are aware of certificate expiration as a source of outages. An outage caused by an expired certificate can be a black eye for an engineering organization - a certificate comes with an obvious expiration date, so you'd think it would be easy to prevent that sort of outage. 
+In my experience, even people who are not very technical are aware of certificate expiration as a source of outages. Outages caused by expired certificates can be a black eye for an engineering organization - a certificate has a clear expiration date, so you'd think it would be easy to prevent that sort of outage. 
+
+
+
+
 
 ## Playbook
 
@@ -31,6 +35,3 @@ Cipher suites are a common requirement for audits like PCI or HIPAA, not directl
 
 Discuss automation, especially with a tool like Let's Encrypt - where that is (and is not) appropriate.
 
----
-
-I can help you with this! Email me at grant.gordon+consulting@hey.com to discuss project rates. 
