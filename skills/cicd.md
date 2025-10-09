@@ -1,3 +1,8 @@
+---
+layout: default
+---
+
+
 # Building and Deploying Software (CI/CD)
 
 Much like "DevOps", "CI/CD" means a lot of different things to a lot of different folks. At some places, I've seen for-real continuous integration and continuous deployment - ArgoCD running in a Kubernetes cluster constantly testing and applying the latest changes from git. At other places, "CI/CD" was a manually-triggered Jenkins pipeline that released to production once a month. "CI/CD" has become a convenient shorthand for "the process by which we build, test, and release our software". 

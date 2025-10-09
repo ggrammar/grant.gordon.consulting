@@ -1,3 +1,8 @@
+---
+layout: default
+---
+
+
 ## Process Documentation
 
 I'm a big fan of writing! I believe that a strong writing culture is critical to building and operating software at scale. 
