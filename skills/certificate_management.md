@@ -56,6 +56,7 @@ Outbound certificates are typically installed by default on your operating syste
 
  If you are installing additional certificates xyz (like a private CA for your organization, or to communicate with a vendor), it might be worth the effort to monitor these. 
 
+<!--
 ## Unorganized notes. 
 
 I like to use something like https://www.ssllabs.com/ssltest/ 
@@ -63,4 +64,4 @@ I like to use something like https://www.ssllabs.com/ssltest/
 Cipher suites are a common requirement for audits like PCI or HIPAA, not directly related to certificates. 
 
 Discuss automation, especially with a tool like Let's Encrypt - where that is (and is not) appropriate.
-
+-->
