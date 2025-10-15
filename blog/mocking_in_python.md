@@ -20,7 +20,7 @@ def call_third_party():
 	return requests.get("https://time.gov")
 
 # This is the unit test for that function - right now, we're actually issuing an
-# HTTP requuest every time we run this test. 
+# HTTP request every time we run this test. 
 class TestCallThirdParty(unittest.TestCase):
 	def test_call_third_party(self):
 		r = call_third_party()
@@ -28,7 +28,7 @@ class TestCallThirdParty(unittest.TestCase):
 		self.assertTrue(r.text.contains("Federal government"))
 ```
 
-I'll call this at the command line. 
+I'll run this at the command line:
 
 ```
 % python3 -m unittest ./main.py
@@ -39,7 +39,9 @@ Ran 1 test in 0.125s
 OK
 ```
 
-## Pickle the Response
+The code runs (off to a good start!), issuing an HTTP request when we run the test.
+
+## Store the Response
 
 Let's start with a simple improvement. How can we store the response of `requests.get`, and use that instead of an actual HTTP request during the test?
 
